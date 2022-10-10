@@ -39,7 +39,7 @@ export const option = {
     show: true,
     type: 'category',
     axisLabel: {
-      color: '#484343',
+      color: '#ffffff',
       fontSize: 16,
       rotate: 0
     },
@@ -56,7 +56,7 @@ export const option = {
     show: true,
     type: 'value',
     axisLabel: {
-      color: '#484343',
+      color: '#ffffff',
       fontSize: 16,
       rotate: 0
     },

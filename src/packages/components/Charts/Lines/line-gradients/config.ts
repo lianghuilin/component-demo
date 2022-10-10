@@ -41,14 +41,14 @@ export const option = {
     show: true,
     type: 'category',
     axisLabel: {
-      color: '#484343',
+      color: '#ffffff',
       fontSize: 16,
       rotate: 0
     },
     axisLine: {
       show: true,
       lineStyle: {
-        color: null,
+        color: '#484343',
         type: 'solid',
         width: 1
       }
@@ -58,7 +58,7 @@ export const option = {
     show: true,
     type: 'value',
     axisLabel: {
-      color: '#484343',
+      color: '#ffffff',
       fontSize: 16,
       rotate: 0
     },
