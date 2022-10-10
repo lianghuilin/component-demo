@@ -1,0 +1,47 @@
+{
+  "dimensions": ["date", "sale", "amount"],
+  "source": [
+    {
+      "date": "2022-10-1",
+      "sale": "68",
+      "averagePrice": "20",
+      "amount": "156"
+    },
+    {
+      "date": "2022-10-2",
+      "sale": "46",
+      "averagePrice": "35",
+      "amount": "260"
+    },
+    {
+      "date": "2022-10-3",
+      "sale": "26",
+      "averagePrice": "69",
+      "amount": "136"
+    },
+    {
+      "date": "2022-10-4",
+      "sale": "11",
+      "averagePrice": "50",
+      "amount": "189"
+    },
+    {
+      "date": "2022-10-5",
+      "sale": "68",
+      "averagePrice": "57",
+      "amount": "356"
+    },
+    {
+      "date": "2022-10-6",
+      "sale": "118",
+      "averagePrice": "10",
+      "amount": "1180"
+    },
+    {
+      "date": "2022-10-7",
+      "sale": "98",
+      "averagePrice": "56",
+      "amount": "375"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+@import './element-ui.scss';
+
+html,
+body {
+    height: 100%;
+    max-height: 1080px;
+    padding: 0;
+    margin: 0;
+    background-attachment: fixed;
+    background-color: #132038;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('@assets/fonts/Roboto-Bold.ttf');
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.cl::after {
+    display: block;
+    width: 0;
+    height: 0;
+    content: '';
+    clear: both;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+div,
+span {
+    font-size: 12px;
+}

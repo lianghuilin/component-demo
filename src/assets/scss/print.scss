@@ -1,0 +1,71 @@
+$small-font-size: 3.95mm;
+$normal-font-size: 4.5mm;
+$blue-num-font-size: 7mm;
+
+.print-page {
+    width: 210mm;
+    height: 297mm;
+}
+
+.num-blue {
+    color: #fff;
+    line-height: 2.5;
+}
+
+
+.report-card .sub-title {
+    font-size: $normal-font-size;
+}
+
+.base-report-item {
+
+    .label,
+    .unit {
+        font-size: $normal-font-size !important;
+    }
+
+    .data.num-blue {
+        font-size: $blue-num-font-size;
+    }
+}
+
+
+.base-chart-progress .item .label div,
+.base-chart-progress .item .label span {
+    /* px-to-viewport-ignore-next */
+    font-size: $small-font-size;
+    /* end */
+}
+
+.number-of-appointments .grid-wrap .block>div {
+    /* px-to-viewport-ignore-next */
+    margin-right: 20px;
+    /* end */
+}
+
+.report-charpter-card .header .title {
+    font-size: $normal-font-size;
+}
+
+.peak-number-of-appointments .report-label {
+    font-size: $small-font-size;
+}
+
+.base-simple-table .td,
+.base-simple-table .td>span {
+    font-size: $small-font-size;
+}
+
+.starck-bar-container .stack-title>span,
+.legend-item>span {
+    font-size: $small-font-size;
+}
+
+.team-or-individual {
+
+    .starck-bar-container .stack-desc>div,
+    .starck-bar-container .stack-desc,
+    .starck-bar-container .stack-desc .num-bold {
+        font-size: $small-font-size !important;
+    }
+}

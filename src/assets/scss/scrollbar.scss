@@ -1,0 +1,193 @@
+//自定义滚动条scrollbar
+.custom-scrollbar,
+.custom-scrollbar .el-table__body-wrapper {
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    &::-webkit-scrollbar-corner {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    &::-webkit-scrollbar-resizer {
+        background-color: #FF6E00
+    }
+
+    &::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    &::-o-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    &::-o-scrollbar-thumb:hover {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    &::-o-scrollbar-corner {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    &::-o-scrollbar-resizer {
+        background-color: #FF6E00
+    }
+
+    &::-o-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    &::-moz-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    &::-moz-scrollbar-thumb:hover {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    &::-moz-scrollbar-corner {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    &::-moz-scrollbar-resizer {
+        background-color: #FF6E00
+    }
+
+    &::-moz-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    &::-ms-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    &::-ms-scrollbar-thumb:hover {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    &::-ms-scrollbar-corner {
+        background-color: rgba(0, 0, 0, 0.12);
+    }
+
+    &::-ms-scrollbar-resizer {
+        background-color: #FF6E00
+    }
+
+    &::-ms-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+.scroll::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 10px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 12px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.2);
+    background: #fff;
+}
+
+.scroll::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    background: #888;
+}
+
+.el-select-dropdown__wrap.el-scrollbar__wrap{
+    background-color: #2d2f38;
+}
+.el-select__popper.el-popper{
+    border: 1px solid #2d2f38 !important;
+}
+.el-select__popper.el-popper .el-popper__arrow::before{
+    border: 1px solid #2d2f38 !important;
+    background: #2d2f38 !important;
+}
+.el-select-dropdown .el-select-dropdown__item{
+    background: #2d2f38;
+}
+.el-select-dropdown .el-select-dropdown__item.hover{
+    background: #22242b;
+}
+.el-select-dropdown .el-select-dropdown__item.selected{
+    background: #22242b;
+    color: #018eff;
+}
+.el-input-number--small .el-input__wrapper{
+    background: #181b24;
+    border-color: #d9d9d9;
+}
+.el-input-number--small .el-input-number__decrease, .el-input-number--small .el-input-number__increase{
+    background: #181b24;
+}
+.el-select .el-input__wrapper{
+    background: #181b24;
+    border-color: #d9d9d9;
+}
+.el-tabs__nav-wrap::after{
+    height: 1px !important;
+    background-color: #393b4a !important;
+}
+.el-input{
+    width: 119px !important;
+    .el-input__wrapper{
+        background: #181b24 !important;
+    }
+}
+#app {
+    height: 100%;
+}
+
+.chart-content {
+    display: flex;
+    height: inherit;
+  
+    .right-content {
+      height: 100%;
+      background: #181b24;
+      width: 300px;
+      overflow: auto;
+    }
+    .left-content {
+        width: calc(100% - 300px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        :deep(.dv-scroll-board) {
+          width: 700px;
+          height: 380px;
+        }
+    }
+}
+.el-collapse-item__header {
+    height: 32px !important;
+    line-height: 32 !important;
+    font-size: 12px !important;
+    font-weight: 200 !important;
+}
+.chart-content .el-tabs__item{
+    font-size: 12px !important;
+    font-weight: 200 !important;
+}
+.el-form-item__label {
+    font-size: 12px !important;
+}

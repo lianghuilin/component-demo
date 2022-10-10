@@ -1,0 +1,87 @@
+@import './responsive.scss';
+@import './common.scss';
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.view-page {
+    background-image: url("@assets/img/da-lian/bg.jpg");
+    position: relative;
+    padding-top: 54px;
+    height: calc(100vh - 54px);
+}
+
+
+.num-blue {
+    font-family: 'Roboto-Bold', sans-serif, auto;
+    letter-spacing: 0px;
+    background: linear-gradient(180deg, #C7E6FF, #018EFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.num-red {
+    font-family: 'Roboto-Bold';
+    letter-spacing: 1px;
+    background: linear-gradient(180deg, #FF7F41 0%, #E12E19 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+@mixin text-color {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.tr {
+    text-align: right;
+}
+
+.header-box {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 12px;
+    background: linear-gradient(270deg,
+            rgba(0, 79, 142, 0) 0%,
+            #004f8e 100%);
+
+    .label {
+        border-left: 4px solid #018eff;
+        padding-left: 6px;
+        font-size: 14px;
+        display: inline-block;
+        height: 16px;
+        line-height: 16px;
+
+        span {
+            vertical-align: top;
+        }
+
+        @include text-color;
+
+        .input {
+            width: 120px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        img {
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
+}
+
+.report-label {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 8px;
+}

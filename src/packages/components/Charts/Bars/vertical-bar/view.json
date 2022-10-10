@@ -1,0 +1,635 @@
+{
+    "editCanvasConfig": {
+        "width": 1920,
+        "height": 1080,
+        "hueRotate": 0,
+        "saturate": 1,
+        "contrast": 1,
+        "brightness": 1,
+        "opacity": 1,
+        "rotateZ": 0,
+        "rotateX": 0,
+        "rotateY": 0,
+        "skewX": 0,
+        "skewY": 0,
+        "selectColor": true,
+        "chartThemeColor": "dark",
+        "chartThemeSetting": {
+            "title": {
+                "show": true,
+                "textStyle": { "color": "#BFBFBF", "fontSize": 18 },
+                "subtextStyle": { "color": "#A2A2A2", "fontSize": 14 }
+            },
+            "xAxis": {
+                "show": true,
+                "name": "",
+                "nameGap": 15,
+                "nameTextStyle": { "color": "#B9B8CE", "fontSize": 12 },
+                "inverse": false,
+                "axisLabel": {
+                    "show": true,
+                    "fontSize": 12,
+                    "color": "#B9B8CE"
+                },
+                "position": "bottom",
+                "axisLine": {
+                    "lineStyle": { "color": "#B9B8CE", "width": 1 },
+                    "onZero": true
+                },
+                "axisTick": { "show": true, "length": 5 },
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "color": "#484753",
+                        "width": 1,
+                        "type": "solid"
+                    }
+                }
+            },
+            "yAxis": {
+                "show": true,
+                "name": "",
+                "nameGap": 15,
+                "nameTextStyle": { "color": "#B9B8CE", "fontSize": 12 },
+                "inverse": false,
+                "axisLabel": {
+                    "show": true,
+                    "fontSize": 12,
+                    "color": "#B9B8CE"
+                },
+                "position": "left",
+                "axisLine": {
+                    "show": true,
+                    "lineStyle": { "color": "#B9B8CE", "width": 1 },
+                    "onZero": true
+                },
+                "axisTick": { "show": true, "length": 5 },
+                "splitLine": {
+                    "show": true,
+                    "lineStyle": {
+                        "color": "#484753",
+                        "width": 1,
+                        "type": "solid"
+                    }
+                }
+            },
+            "legend": {
+                "show": true,
+                "top": "5%",
+                "textStyle": { "color": "#B9B8CE" }
+            },
+            "dataset": null
+        },
+        "previewScaleType": "fit"
+    },
+    "componentList": [
+        {
+            "id": "8w7sznudjqw0000",
+            "attr": { "x": 73, "y": 66, "w": 555, "h": 345, "zIndex": -1 },
+            "styles": {
+                "hueRotate": 0,
+                "saturate": 1,
+                "contrast": 1,
+                "brightness": 1,
+                "opacity": 1,
+                "rotateZ": 0,
+                "rotateX": 0,
+                "rotateY": 0,
+                "skewX": 0,
+                "skewY": 0,
+                "animations": []
+            },
+            "request": {
+                "requestDataType": 0,
+                "requestHttpType": "get",
+                "requestUrl": "",
+                "requestIntervalUnit": "second",
+                "requestContentType": 0,
+                "requestParamsBodyType": "none",
+                "requestSQLContent": { "sql": "select * from  where" },
+                "requestParams": {
+                    "Body": {
+                        "form-data": {},
+                        "x-www-form-urlencoded": {},
+                        "json": "",
+                        "xml": ""
+                    },
+                    "Header": {},
+                    "Params": {}
+                }
+            },
+            "key": "BarCommon",
+            "chartConfig": {
+                "key": "BarCommon",
+                "chartKey": "VBarCommon",
+                "conKey": "VCBarCommon",
+                "title": "柱状图",
+                "category": "Bars",
+                "categoryName": "柱状图",
+                "package": "Charts",
+                "chartFrame": "echarts",
+                "image": "./static/png/bar_x-4f524f3c.png"
+            },
+            "option": {
+                "legend": {
+                    "show": true,
+                    "top": "5%",
+                    "textStyle": { "color": "#B9B8CE" }
+                },
+                "xAxis": {
+                    "show": true,
+                    "name": "",
+                    "nameGap": 15,
+                    "nameTextStyle": { "color": "#B9B8CE", "fontSize": 12 },
+                    "inverse": false,
+                    "axisLabel": {
+                        "show": true,
+                        "fontSize": 12,
+                        "color": "#B9B8CE"
+                    },
+                    "position": "bottom",
+                    "axisLine": {
+                        "lineStyle": { "color": "#B9B8CE", "width": 1 },
+                        "onZero": true
+                    },
+                    "axisTick": { "show": true, "length": 5 },
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "color": "#484753",
+                            "width": 1,
+                            "type": "solid"
+                        }
+                    },
+                    "type": "category"
+                },
+                "yAxis": {
+                    "show": true,
+                    "name": "",
+                    "nameGap": 15,
+                    "nameTextStyle": { "color": "#B9B8CE", "fontSize": 12 },
+                    "inverse": false,
+                    "axisLabel": {
+                        "show": true,
+                        "fontSize": 12,
+                        "color": "#B9B8CE"
+                    },
+                    "position": "left",
+                    "axisLine": {
+                        "show": true,
+                        "lineStyle": { "color": "#B9B8CE", "width": 1 },
+                        "onZero": true
+                    },
+                    "axisTick": { "show": true, "length": 5 },
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "color": "#484753",
+                            "width": 1,
+                            "type": "solid"
+                        }
+                    },
+                    "type": "value"
+                },
+                "tooltip": {
+                    "show": true,
+                    "trigger": "axis",
+                    "axisPointer": { "show": true, "type": "shadow" }
+                },
+                "dataset": {
+                    "dimensions": ["product", "data1", "data2"],
+                    "source": [
+                        { "product": "Mon", "data1": 120, "data2": 130 },
+                        { "product": "Tue", "data1": 200, "data2": 130 },
+                        { "product": "Wed", "data1": 150, "data2": 312 },
+                        { "product": "Thu", "data1": 80, "data2": 268 },
+                        { "product": "Fri", "data1": 70, "data2": 155 },
+                        { "product": "Sat", "data1": 110, "data2": 117 },
+                        { "product": "Sun", "data1": 130, "data2": 160 }
+                    ]
+                },
+                "series": [
+                    {
+                        "type": "bar",
+                        "barWidth": null,
+                        "itemStyle": { "color": null, "borderRadius": 0 }
+                    },
+                    {
+                        "type": "bar",
+                        "barWidth": null,
+                        "itemStyle": { "color": null, "borderRadius": 0 }
+                    }
+                ],
+                "backgroundColor": "rgba(0,0,0,0)"
+            }
+        },
+        {
+            "id": "ddnoa4khe7c0000",
+            "attr": { "x": 980, "y": 85, "w": 611, "h": 326, "zIndex": -1 },
+            "styles": {
+                "hueRotate": 0,
+                "saturate": 1,
+                "contrast": 1,
+                "brightness": 1,
+                "opacity": 1,
+                "rotateZ": 0,
+                "rotateX": 0,
+                "rotateY": 0,
+                "skewX": 0,
+                "skewY": 0,
+                "animations": []
+            },
+            "request": {
+                "requestDataType": 0,
+                "requestHttpType": "get",
+                "requestUrl": "",
+                "requestIntervalUnit": "second",
+                "requestContentType": 0,
+                "requestParamsBodyType": "none",
+                "requestSQLContent": { "sql": "select * from  where" },
+                "requestParams": {
+                    "Body": {
+                        "form-data": {},
+                        "x-www-form-urlencoded": {},
+                        "json": "",
+                        "xml": ""
+                    },
+                    "Header": {},
+                    "Params": {}
+                }
+            },
+            "key": "PieCommon",
+            "chartConfig": {
+                "key": "PieCommon",
+                "chartKey": "VPieCommon",
+                "conKey": "VCPieCommon",
+                "title": "饼图",
+                "category": "Pies",
+                "categoryName": "饼图",
+                "package": "Charts",
+                "chartFrame": "echarts",
+                "image": "./static/png/pie-d09376ef.png"
+            },
+            "option": {
+                "legend": {
+                    "show": true,
+                    "top": "5%",
+                    "textStyle": { "color": "#B9B8CE" }
+                },
+                "tooltip": { "show": true, "trigger": "item" },
+                "dataset": {
+                    "dimensions": ["product", "data1"],
+                    "source": [
+                        { "product": "Mon", "data1": 120 },
+                        { "product": "Tue", "data1": 200 },
+                        { "product": "Wed", "data1": 150 },
+                        { "product": "Thu", "data1": 80 },
+                        { "product": "Fri", "data1": 70 },
+                        { "product": "Sat", "data1": 110 },
+                        { "product": "Sun", "data1": 130 }
+                    ]
+                },
+                "series": [
+                    {
+                        "type": "pie",
+                        "radius": ["40%", "65%"],
+                        "center": ["50%", "60%"],
+                        "avoidLabelOverlap": false,
+                        "itemStyle": {
+                            "show": true,
+                            "borderRadius": 10,
+                            "borderColor": "#fff",
+                            "borderWidth": 2
+                        },
+                        "label": { "show": false, "position": "center" },
+                        "emphasis": {
+                            "label": {
+                                "show": true,
+                                "fontSize": "40",
+                                "fontWeight": "bold"
+                            }
+                        },
+                        "labelLine": { "show": false }
+                    }
+                ],
+                "backgroundColor": "rgba(0,0,0,0)"
+            }
+        },
+        {
+            "id": "e1h94hsz0680000",
+            "attr": { "x": 100.5, "y": 477, "w": 500, "h": 300, "zIndex": -1 },
+            "styles": {
+                "hueRotate": 0,
+                "saturate": 1,
+                "contrast": 1,
+                "brightness": 1,
+                "opacity": 1,
+                "rotateZ": 0,
+                "rotateX": 0,
+                "rotateY": 0,
+                "skewX": 0,
+                "skewY": 0,
+                "animations": []
+            },
+            "request": {
+                "requestDataType": 0,
+                "requestHttpType": "get",
+                "requestUrl": "",
+                "requestIntervalUnit": "second",
+                "requestContentType": 0,
+                "requestParamsBodyType": "none",
+                "requestSQLContent": { "sql": "select * from  where" },
+                "requestParams": {
+                    "Body": {
+                        "form-data": {},
+                        "x-www-form-urlencoded": {},
+                        "json": "",
+                        "xml": ""
+                    },
+                    "Header": {},
+                    "Params": {}
+                }
+            },
+            "key": "LineCommon",
+            "chartConfig": {
+                "key": "LineCommon",
+                "chartKey": "VLineCommon",
+                "conKey": "VCLineCommon",
+                "title": "折线图",
+                "category": "Lines",
+                "categoryName": "折线图",
+                "package": "Charts",
+                "chartFrame": "echarts",
+                "image": "./static/png/line-60275cc7.png"
+            },
+            "option": {
+                "legend": {
+                    "show": true,
+                    "top": "5%",
+                    "textStyle": { "color": "#B9B8CE" }
+                },
+                "xAxis": {
+                    "show": true,
+                    "name": "",
+                    "nameGap": 15,
+                    "nameTextStyle": { "color": "#B9B8CE", "fontSize": 12 },
+                    "inverse": false,
+                    "axisLabel": {
+                        "show": true,
+                        "fontSize": 12,
+                        "color": "#B9B8CE"
+                    },
+                    "position": "bottom",
+                    "axisLine": {
+                        "lineStyle": { "color": "#B9B8CE", "width": 1 },
+                        "onZero": true
+                    },
+                    "axisTick": { "show": true, "length": 5 },
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "color": "#484753",
+                            "width": 1,
+                            "type": "solid"
+                        }
+                    },
+                    "type": "category"
+                },
+                "yAxis": {
+                    "show": true,
+                    "name": "",
+                    "nameGap": 15,
+                    "nameTextStyle": { "color": "#B9B8CE", "fontSize": 12 },
+                    "inverse": false,
+                    "axisLabel": {
+                        "show": true,
+                        "fontSize": 12,
+                        "color": "#B9B8CE"
+                    },
+                    "position": "left",
+                    "axisLine": {
+                        "show": true,
+                        "lineStyle": { "color": "#B9B8CE", "width": 1 },
+                        "onZero": true
+                    },
+                    "axisTick": { "show": true, "length": 5 },
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "color": "#484753",
+                            "width": 1,
+                            "type": "solid"
+                        }
+                    },
+                    "type": "value"
+                },
+                "tooltip": {
+                    "show": true,
+                    "trigger": "axis",
+                    "axisPointer": { "type": "line" }
+                },
+                "dataset": {
+                    "dimensions": ["product", "data1"],
+                    "source": [
+                        { "product": "Mon", "data1": 120 },
+                        { "product": "Tue", "data1": 200 },
+                        { "product": "Wed", "data1": 150 },
+                        { "product": "Thu", "data1": 80 },
+                        { "product": "Fri", "data1": 70 },
+                        { "product": "Sat", "data1": 110 },
+                        { "product": "Sun", "data1": 130 }
+                    ]
+                },
+                "series": [
+                    {
+                        "type": "line",
+                        "lineStyle": {
+                            "type": "solid",
+                            "width": 3,
+                            "color": {
+                                "type": "linear",
+                                "colorStops": [
+                                    { "offset": 0, "color": "#4992ff" },
+                                    { "offset": 1, "color": "#7cffb2" }
+                                ],
+                                "globalCoord": false
+                            },
+                            "shadowColor": "rgba(68, 181, 226, 0.3)",
+                            "shadowBlur": 10,
+                            "shadowOffsetY": 20
+                        }
+                    }
+                ],
+                "backgroundColor": "rgba(0,0,0,0)"
+            }
+        },
+        {
+            "id": "7j0zgoaezsc0000",
+            "attr": { "x": 1064, "y": 459, "w": 602, "h": 336, "zIndex": -1 },
+            "styles": {
+                "hueRotate": 0,
+                "saturate": 1,
+                "contrast": 1,
+                "brightness": 1,
+                "opacity": 1,
+                "rotateZ": 0,
+                "rotateX": 0,
+                "rotateY": 0,
+                "skewX": 0,
+                "skewY": 0,
+                "animations": []
+            },
+            "request": {
+                "requestDataType": 0,
+                "requestHttpType": "get",
+                "requestUrl": "",
+                "requestIntervalUnit": "second",
+                "requestContentType": 0,
+                "requestParamsBodyType": "none",
+                "requestSQLContent": { "sql": "select * from  where" },
+                "requestParams": {
+                    "Body": {
+                        "form-data": {},
+                        "x-www-form-urlencoded": {},
+                        "json": "",
+                        "xml": ""
+                    },
+                    "Header": {},
+                    "Params": {}
+                }
+            },
+            "key": "LineGradientSingle",
+            "chartConfig": {
+                "key": "LineGradientSingle",
+                "chartKey": "VLineGradientSingle",
+                "conKey": "VCLineGradientSingle",
+                "title": "单折线面积图",
+                "category": "Lines",
+                "categoryName": "折线图",
+                "package": "Charts",
+                "chartFrame": "echarts",
+                "image": "./static/png/line_gradient_single-e65f35b3.png"
+            },
+            "option": {
+                "legend": {
+                    "show": true,
+                    "top": "5%",
+                    "textStyle": { "color": "#B9B8CE" }
+                },
+                "xAxis": {
+                    "show": true,
+                    "name": "",
+                    "nameGap": 15,
+                    "nameTextStyle": { "color": "#B9B8CE", "fontSize": 12 },
+                    "inverse": false,
+                    "axisLabel": {
+                        "show": true,
+                        "fontSize": 12,
+                        "color": "#B9B8CE"
+                    },
+                    "position": "bottom",
+                    "axisLine": {
+                        "lineStyle": { "color": "#B9B8CE", "width": 1 },
+                        "onZero": true
+                    },
+                    "axisTick": { "show": true, "length": 5 },
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "color": "#484753",
+                            "width": 1,
+                            "type": "solid"
+                        }
+                    },
+                    "type": "category"
+                },
+                "yAxis": {
+                    "show": true,
+                    "name": "",
+                    "nameGap": 15,
+                    "nameTextStyle": { "color": "#B9B8CE", "fontSize": 12 },
+                    "inverse": false,
+                    "axisLabel": {
+                        "show": true,
+                        "fontSize": 12,
+                        "color": "#B9B8CE"
+                    },
+                    "position": "left",
+                    "axisLine": {
+                        "show": true,
+                        "lineStyle": { "color": "#B9B8CE", "width": 1 },
+                        "onZero": true
+                    },
+                    "axisTick": { "show": true, "length": 5 },
+                    "splitLine": {
+                        "show": true,
+                        "lineStyle": {
+                            "color": "#484753",
+                            "width": 1,
+                            "type": "solid"
+                        }
+                    },
+                    "type": "value"
+                },
+                "tooltip": {
+                    "show": true,
+                    "trigger": "axis",
+                    "axisPointer": { "type": "line" }
+                },
+                "dataset": {
+                    "dimensions": ["product", "data1"],
+                    "source": [
+                        { "product": "Mon", "data1": 120 },
+                        { "product": "Tue", "data1": 200 },
+                        { "product": "Wed", "data1": 150 },
+                        { "product": "Thu", "data1": 80 },
+                        { "product": "Fri", "data1": 70 },
+                        { "product": "Sat", "data1": 110 },
+                        { "product": "Sun", "data1": 130 }
+                    ]
+                },
+                "series": [
+                    {
+                        "type": "line",
+                        "smooth": false,
+                        "lineStyle": { "type": "solid", "width": 3 },
+                        "areaStyle": {
+                            "opacity": 0.8,
+                            "color": {
+                                "colorStops": [
+                                    {
+                                        "offset": 0,
+                                        "color": "rgba(73, 146, 255, 0.5)"
+                                    },
+                                    { "offset": 1, "color": "rgba(0,0,0, 0)" }
+                                ],
+                                "x": 0,
+                                "y": 0,
+                                "x2": 0,
+                                "y2": 1,
+                                "type": "linear",
+                                "global": false
+                            }
+                        }
+                    }
+                ],
+                "backgroundColor": "rgba(0,0,0,0)"
+            }
+        }
+    ],
+    "requestGlobalConfig": {
+        "requestOriginUrl": "",
+        "requestInterval": 30,
+        "requestIntervalUnit": "second",
+        "requestParams": {
+            "Body": {
+                "form-data": {},
+                "x-www-form-urlencoded": {},
+                "json": "",
+                "xml": ""
+            },
+            "Header": {},
+            "Params": {}
+        }
+    }
+}
